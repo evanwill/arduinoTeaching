@@ -1,16 +1,17 @@
 /*
   OfficeTemp:
   Is Evan's Office Too Hot?
+  evanwill 2016, https://github.com/evanwill/arduinoTeaching
   
   based on: 
       Arduino Starter Kit, Project 3  - Love-O-Meter
       
   Parts required:
   UNO
-  1 TMP36 temperature sensor (center pin connects to pin A0)
-  4 LEDs: blue, green, orange, red (connect long leg to pins 2,3,4,5)
-  4 220 ohm resistors (connect short leg of LED to GND)
-  wires, usb 
+  breadboard
+  1 TMP36 temperature sensor (use wire to connect center leg to UNO pin A0; connect + and - legs to rails)
+  4 LEDs: blue, green, orange, red (use wire to connect long leg to UNO pins 2,3,4,5)
+  4 220 ohm resistors (use to connect short leg of LEDs to GND) 
 
  */
 
