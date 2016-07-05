@@ -3,6 +3,8 @@
   Is Evan's Office Too Hot?
   evanwill 2016, https://github.com/evanwill/arduinoTeaching
   
+  uses a temp sensor and some LEDs to indicate if my office is getting TOO hot (which it usually is)
+  
   based on: 
       Arduino Starter Kit, Project 3  - Love-O-Meter
       
@@ -98,5 +100,6 @@ void loop() {
     digitalWrite(red, HIGH);
   }
   // wait before next reading
+  // it doesn't need to constantly update
   delay(500);
 }
